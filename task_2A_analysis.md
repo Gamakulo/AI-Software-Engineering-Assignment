@@ -1,0 +1,5 @@
+In this task, GitHub Copilot suggested a Python function that sorts a list of dictionaries by a specified key. The generated code used Python’s built-in sorted() method with a lambda function as the key parameter. My manually written version implemented a nested loop approach, iterating through the list and swapping dictionary positions based on the key value.
+
+The AI-generated function was more concise, readable, and efficient. It required only one line to perform the sort operation, leveraging Python’s optimized internal sorting algorithm, which runs in O(n log n) time. The manual version, by contrast, used a basic bubble-sort logic with O(n²) complexity, making it slower for larger datasets.
+
+Copilot’s suggestion demonstrated how AI accelerates coding by recalling optimal syntax and patterns instantly. However, it still relied on developer oversight to verify correctness, handle missing keys, and ensure readability. While AI reduces development time for common tasks, human review remains essential to guarantee accuracy, maintainability, and adherence to project standards.
